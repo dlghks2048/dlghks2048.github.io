@@ -1,0 +1,66 @@
+<!doctype html>		<!-- subjectTable1.html-->
+
+<html lang="ko">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<style>
+			table, thead, tbody, tfoot, tr, th, td {
+				border: 1px solid black; border-collapse: collapse;
+			}
+			table { color:white }
+			.subject1 { background-color:#E04042; }
+			.subject2 { background-color:#F49B48; }
+			.subject3 { background-color:#279CB7; }
+			.subject4 { background-color:#545EEF; }
+			.subject5 { background-color:#18E291; }
+			.subject6 { background-color:#F37F25; }
+			.subject7 { background-color:#B93DF3; }
+			.subject8 { background-color:#81F00A; }
+			.subject9 { background-color:#252525; }
+		</style> <!-- border-collapse: collapse 단선으로, 반대는 separate -->
+		<title>HTML5 시간표</title>
+	</head>
+	<body>
+		
+		<table class="subject9" color>
+			<caption style="color:black">&lt;표1&gt; 시간표</caption>
+			<thead>
+				<tr>
+					<th width="60">시간</th><th width="60">월</th><th width="60">화</th><th width="60">수</th><th width="60">목</th><th width="60">금</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td height="60">1교시</td><td>-</td><td class="subject3" rowspan="2">자료구조</td><td>-</td><td>-</td><td>-</td>
+				</tr>	
+				<tr>
+					<td height="60">2교시</td><td>-</td><td>-</td><td>-</td><td>-</td>
+				</tr>
+				<tr>
+					<td height="60">3교시</td><td class="subject1" rowspan="2">영회2</td><td>-</td><td class="subject3" rowspan="2">자료구조</td><td>-</td><td>-</td>
+				</tr>
+				<tr>
+					<td height="60">4교시</td><td class="subject4" rowspan="3">현대소설창작이해</td><td>-</td><td class="subject7" rowspan="3">확통</td>
+				</tr>
+				<tr>
+					<td height="60">5교시</td><td class="subject2" rowspan="4">c++</td><td>-</td><td>-</td>
+				</tr>
+				<tr>
+					<td height="60">6교시</td><td>-</td><td>-</td>
+				</tr>
+				<tr>
+					<td height="60">7교시</td><td>-</td><td class="subject5" rowspan="3">인터넷 응용</td><td class="subject6">진로</td><td class="subject8" rowspan="3">인간과 국가</td>
+				</tr>
+				<tr>
+					<td height="60">8교시</td><td>-</td><td>-</td>
+				</tr>
+				<tr>
+					<td height="60">9교시</td><td>-</td><td>-</td><td>-</td>
+				</tr>
+			</tbody>
+
+		</table>
+	</body>
+</html>
