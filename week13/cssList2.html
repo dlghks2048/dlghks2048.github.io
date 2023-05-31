@@ -9,7 +9,7 @@
 			ol li { border: 1px solid gray; }
 			ul.img { list-style-image:url("lobster.png"); }
 			ul.char { list-style: none; }
-			ul.char li:before { content:"#"; padding-right: 0px; color: red; }
+			ul.char li:before { content:"#"; padding-right: 0px; color: red; }  /* psedo element는 더블콜론을 사용해야 하지만(::) css2에서 콜론(:)도 element 취급을 하였기 때문에 기능은 하나 더블 콜론을 사용하는 것이 맞다. */
 			/* ul li:before { content:"lobster.png"; padding-right: 0px; color: red; } */
 			ol.all { list-style: decimal-leading-zero inside; }
 			ul.menu li { list-style: none; display: inline; background-color: red; border: 1px solid blue; }
